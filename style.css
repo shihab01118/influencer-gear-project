@@ -14,7 +14,7 @@
 
 /* header section starts */
 header {
-    padding: 75px 120px 50px;
+    padding: 75px 120px 0;
 }
 
 /* nav section */
@@ -36,6 +36,56 @@ header {
 .navbar ul li a {
     text-decoration: none;
     color: #3A3A3A;
+}
+
+/* banner section */
+.banner {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    gap: 130px;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-size: 3rem;
+    font-weight: 700;
+    gap: 130px;
+}
+
+.banner-text {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 25px 0;
+}
+
+.btn-banner {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 40px;
+    background-color: #E02C6D;
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.banner-img {
+    background-image: url('images/Circle\ design.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-img img {
+    width: 100%;
 }
 
 /* responsive for mobile devices */
