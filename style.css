@@ -14,7 +14,7 @@
 
 /* header section starts */
 header {
-    padding: 75px 120px 0;
+    padding: 75px 120px 50px;
 }
 
 /* nav section */
@@ -55,7 +55,6 @@ header {
     color: #3A3A3A;
     font-size: 3rem;
     font-weight: 700;
-    gap: 130px;
 }
 
 .banner-text {
@@ -81,15 +80,18 @@ header {
 .banner-img {
     background-image: url('images/Circle\ design.svg');
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .banner-img img {
+    padding: 2rem;
     width: 100%;
 }
 
 /* responsive for mobile devices */
 @media screen and (max-width: 576px) {
+    /* header section */
     header {
         padding: 20px;
     }
@@ -99,6 +101,25 @@ header {
     }
     .navbar ul {
         gap: 20px;
+    }
+    /* banner section */
+    .banner {
+        flex-direction: column-reverse;
+        gap: 1.25rem;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+    }
+    .banner-text  {
+        font-size: 14px;
+    }
+    .btn-banner {
+        font-weight: 500;
     }
 }
 
@@ -114,4 +135,14 @@ header {
     .navbar ul {
         gap: 40px;
     }
+
+    /* banner section */
+    .banner {
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .banner-content {
+        text-align: center;
+    } 
 }
