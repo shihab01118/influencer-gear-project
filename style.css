@@ -219,6 +219,38 @@ header {
     margin-top: 15px;
 }
 
+/* footer section */
+footer {
+    margin-top: 100px;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    background-color: #0A0826;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-text {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.fa-brands {
+    width: 32px;
+    height: 32px;
+}
+
 /* responsive for mobile devices */
 @media screen and (max-width: 576px) {
     /* header section */
