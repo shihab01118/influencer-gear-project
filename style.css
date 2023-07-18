@@ -224,9 +224,19 @@ header {
     .sponsor-logo {
         width: 100%;
     }
+
+    /* collection section */
+    .collection {
+        padding: 20px;
+    }
+
+    .collection-card-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
 }
 
-/* responsive for mobile devices */
+/* responsive for tablet devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     header {
         padding: 40px 80px;
@@ -265,4 +275,14 @@ header {
     .sponsor-logo {
         width: 100%;
     }
+
+    /* collection section */
+    .collection {
+        padding: 1.5rem;
+    }
+
+    .collection-card-container {
+        gap: 30px;
+    }
+
 }
